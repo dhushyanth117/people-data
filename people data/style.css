@@ -1,0 +1,103 @@
+.person-container{
+    background-color:#1ad1ff;
+    height: 100vh;
+    padding-right:10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.container-Two{
+            display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; 
+    
+}
+.updation{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.person-header{
+     margin-right: 80px;
+    color: white;
+}
+.person-styles{
+     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1ad1ff; 
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.order-list{
+    
+    
+}
+.button-color{
+    background-color: #ff8c1a;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    border-style: none;
+    padding: 10px;
+    position: sticky;
+}
+.my-class{
+    background-color: white;
+    border-radius: 30px;
+    padding-top:5px;
+    
+    
+    
+}
+
+ol.order-list {
+    list-style: none; 
+    counter-reset: my-counter; 
+    padding-left: 20px;
+}
+
+
+ol.order-list li {
+    counter-increment: my-counter; 
+    margin-bottom: 8px; 
+    border-left: 40px solid #00cc66; 
+    border-radius: 20px; 
+    position: relative; 
+}
+
+
+ol.order-list li::before {
+    content: counter(my-counter); 
+    color: #FFFFFF; 
+     
+    font-weight: bold; 
+    margin-right: 5px; 
+    margin-left: -30px; 
+    padding: 0px 2px; 
+    border-radius: 50%; 
+    font-size: 30px;
+}
+.paragra-class{
+    background-color:;
+    height: 10vh;
+    font-weight: bold;
+    padding-left:10px;
+    padding-top:10px;
+    
+}
+.paragrap-class{
+    background-color:#edf1f7 ;
+    height: 10vh;
+    font-weight: bold;
+    padding-left:10px;
+    padding-top:5px;
+    border-bottom-right-radius:20px 
+}
+
